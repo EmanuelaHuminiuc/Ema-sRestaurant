@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592515822107",
+    "project_id": "emas-restaurant",
+    "storage_bucket": "emas-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592515822107:android:83fee551b588ef2e8b7ebe",
+        "android_client_info": {
+          "package_name": "com.ema.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592515822107-v8ccjif5m6emlnfrkp5lbesp135mhgvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRb_CIWT95XyaKtO-KHqa7tItMSq80lwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592515822107-v8ccjif5m6emlnfrkp5lbesp135mhgvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:paddingBottom="10dp"
+    android:background="#FBCBCB"
+    tools:context=".FeedbackActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Your Feedback Is Important For Us!"
+            android:textSize="10pt"
+            android:textColor="#CA1A1A"></TextView>
+
+        <EditText
+            android:id="@+id/EditText_Enter_your_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:textColorHint="#CA1A1A"></EditText>
+
+        <EditText
+            android:id="@+id/EditText_Enter_your_Email"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Please enter your email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#CA1A1A"></EditText>
+
+        <EditText
+            android:id="@+id/EditText_FeedbackBody"
+            android:layout_width="fill_parent"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#FFFDE7"
+            android:gravity="center"
+            android:hint="Hints, complaints or ideas"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textColorHint="#CA1A1A"></EditText>
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_width="124dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#04FF11"
+            android:onClick="sendFeedback"
+            android:text="Submit"></Button>
+    </LinearLayout>
+</ScrollView>

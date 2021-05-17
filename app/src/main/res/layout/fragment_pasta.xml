@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#446EDA"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PastaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Classic Carbonara"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pasta_1 Image"
+                android:src="@drawable/pasta_1" />
+
+            <TextView
+                android:id="@+id/firstPasta"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="The classic reconsidered: less pasta, more crispy-chewy strips of guanciale, and more silky creamy egg"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 3$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPasta1"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPasta1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#446EDA"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Penne with Marinara Sauce"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pasta_2 Image"
+                android:src="@drawable/pasta_2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 5$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPasta2"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPasta2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#446EDA"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Pesto Pasta with Chicken and Tomatoes"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pasta_3 Image"
+                android:src="@drawable/pasta_3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 7$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPizza3"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPizza3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#446EDA"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

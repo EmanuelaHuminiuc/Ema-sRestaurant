@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA6844"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PizzaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="English Breakfast Pizza"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pizza_1 Image"
+                android:src="@drawable/pizza_1" />
+
+            <TextView
+                android:id="@+id/firstPizza"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text=" Bacon, egg, black pudding, sausage, mushrooms, grilled tomatoes (plus passata underneath) and cheese"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 3$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPizza1"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPizza1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#DA6844"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Pepperoni Pizza"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pizza_2 Image"
+                android:src="@drawable/pizza_2" />
+
+            <TextView
+                android:id="@+id/secondPizza"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Hand Tossed and Covered with our Amazing House Made Sauce blended Mozzarella and Provolone with generous portions of Crisp Pepperoni."
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 5$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPizza2"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPizza2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#DA6844"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Classic Pizza Italiano"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pizza_3 Image"
+                android:src="@drawable/pizza_3" />
+
+            <TextView
+                android:id="@+id/thirdPizza"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="An authentic-tasting pizza at home with the help of some delicious traditional ingredients like diced green peppers, fresh mushrooms, Italian sausage and your favorite marinara sauce."
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 7$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPizza3"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignPizza3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#DA6844"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

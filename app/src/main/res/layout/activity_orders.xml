@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40DF35"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".OrdersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:text="Classic Carbonara"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pasta_1 Image"
+                android:src="@drawable/pasta_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="Price: 6$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPasta1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="- 2 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignHam"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#40DF35"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Remove"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:text="Grilled Burger"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="ham_3 Image"
+                android:src="@drawable/ham_3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="Price: 21$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qHam3"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="- 3 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignHam3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#40DF35"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Remove"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:text="Classic Pizza Italiano"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="pizza_3 Image"
+                android:src="@drawable/pizza_3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="Price: 7$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qPizza"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                    android:text="- 1 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/removePizza3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#40DF35"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Remove"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E064A"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HamburgersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Big Green Egg"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="ham_1 Image"
+                android:src="@drawable/ham_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 3$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qHam1"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignHam1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#1E064A"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Foreman Grill American Hamburger"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="ham_2 Image"
+                android:src="@drawable/ham_2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 5$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qHam2"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignHam2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#1E064A"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Grilled Burger"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="ham_3 Image"
+                android:src="@drawable/ham_3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Price: 7$"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/qHam3"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.7"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="- 0 - "
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/assignHam3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:textColor="#1E064A"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Add"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
